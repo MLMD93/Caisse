@@ -1,0 +1,31 @@
+# --- Compilation ---
+build/
+build-*/
+cmake-build-*/
+
+# --- CMake ---
+CMakeCache.txt
+CMakeUserPresets.json
+
+# --- Qt / éditeurs ---
+*.user
+*.autosave
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+.vscode/
+.idea/
+.qtc_clangd/
+
+# --- Base de données locale (jamais dans le dépôt) ---
+*.sqlite
+*.db
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+
+# --- Documentation ---
+docs/*.html
+docs/*.pdf
